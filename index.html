@@ -107,7 +107,7 @@ function loginUI(){document.getElementById('admw').innerHTML='<div class="adm"><
 function doLogin(){if(!window.FBX||!FBX.ok){toast('Online setup is not finished yet');return}FBX.login(document.getElementById('le').value.trim(),document.getElementById('lp').value).then(function(){},function(){toast('Wrong email or password')})}
 render();
 
-</script><script>window.FB_CONFIG={apiKey:"PASTE_API_KEY",authDomain:"PASTE_AUTH_DOMAIN",projectId:"PASTE_PROJECT_ID",appId:"PASTE_APP_ID"};</script>
+</script><script>window.FB_CONFIG={apiKey:"AIzaSyADpxR8DNkLpPuWlbdWgCPQxNhfCZXlTZ4",authDomain:"jdstar.firebaseapp.com",projectId:"jdstar",storageBucket:"jdstar.firebasestorage.app",messagingSenderId:"903172286330",appId:"1:903172286330:web:8be1a83a2f42e3ed17d8c3"};</script>
 <script type="module">
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {getFirestore,collection,getDocs,doc,getDoc,setDoc,deleteDoc} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
